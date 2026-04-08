@@ -15,17 +15,19 @@ public class DriverFactory {
             options.addArguments("--disable-cache");
             options.addArguments("--disable-application-cache");
             options.addArguments("--disk-cache-size=0");
-            options.addArguments("--incognito");
 
             String isHeadless = System.getProperty("headless", "false");
             if (Boolean.parseBoolean(isHeadless)) {
-                options.addArguments("--headless");
+                options.addArguments("--headless=new");
                 options.addArguments("--window-size=1920,1080");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--no-sandbox");
+            } else {
+                options.addArguments("--start-maximized");
             }
 
             WebDriver webDriver = new ChromeDriver(options);
             webDriver.manage().deleteAllCookies();
-            webDriver.manage().window().maximize();
             webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
             driver.set(webDriver);
         }
