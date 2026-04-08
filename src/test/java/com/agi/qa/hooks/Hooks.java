@@ -20,7 +20,7 @@ public class Hooks {
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
             byte[] screenshot = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.BYTES);
-            Allure.addAttachment("Screenshot da Falha", new ByteArrayInputStream(screenshot));
+            Allure.addAttachment("Screenshot da Falha", "image/png", new ByteArrayInputStream(screenshot), ".png");
         }
         DriverFactory.quitDriver();
     }
