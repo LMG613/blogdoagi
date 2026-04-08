@@ -17,7 +17,7 @@ public class WebActions {
 
     public void click(By locator, String nomeDoElemento) {
         Allure.step("Clicando no elemento: " + nomeDoElemento, () ->
-                wait.until(ExpectedConditions.elementToBeClickable(locator)).click());
+                wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).click());
     }
 
     public void sendKeys(By locator, String text, String nomeDoElemento) {
