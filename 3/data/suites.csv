@@ -1,0 +1,13 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  Como um leitor do Blog do Agi
+  Quero poder pesquisar por assuntos do meu interesse
+  Para encontrar artigos relevantes rapidamente","16032","Pesquisa sem resultados encontrados","","Wed Apr 08 17:27:16 UTC 2026","broken","Wed Apr 08 17:27:32 UTC 2026","","Pesquisa de artigos no Blog do Agi","Pesquisa sem resultados encontrados",""
+"  Como um leitor do Blog do Agi
+  Quero poder pesquisar por assuntos do meu interesse
+  Para encontrar artigos relevantes rapidamente","16008","Acionar pesquisa sem preencher termo (Busca Vazia)","","Wed Apr 08 17:27:32 UTC 2026","broken","Wed Apr 08 17:27:48 UTC 2026","","Pesquisa de artigos no Blog do Agi","Acionar pesquisa sem preencher termo (Busca Vazia)",""
+"  Como um leitor do Blog do Agi
+  Quero poder pesquisar por assuntos do meu interesse
+  Para encontrar artigos relevantes rapidamente","22232","Pesquisa com resultados exatos","","Wed Apr 08 17:26:54 UTC 2026","broken","Wed Apr 08 17:27:16 UTC 2026","","Pesquisa de artigos no Blog do Agi","Pesquisa com resultados exatos",""
+"  Como um leitor do Blog do Agi
+  Quero poder pesquisar por assuntos do meu interesse
+  Para encontrar artigos relevantes rapidamente","16007","Pesquisa com caracteres especiais","","Wed Apr 08 17:27:48 UTC 2026","broken","Wed Apr 08 17:28:04 UTC 2026","","Pesquisa de artigos no Blog do Agi","Pesquisa com caracteres especiais",""
