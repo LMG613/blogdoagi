@@ -19,8 +19,7 @@ public class DriverFactory {
 
             String isHeadless = System.getProperty("headless", "false");
             if (Boolean.parseBoolean(isHeadless)) {
-                options.addArguments("--headless=new");
-                options.addArguments("--disable-gpu");
+                options.addArguments("--headless");
                 options.addArguments("--window-size=1920,1080");
             }
 
