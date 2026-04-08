@@ -44,3 +44,4 @@ target/
 allure-results/
 test-output/
 *.log
+.allure/
